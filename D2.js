@@ -112,9 +112,9 @@ console.log("Totale con sconto da addebitare all'utente: " + totalToPay);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
-var a = 7;
-var b = 3;
-var c = 10;
+const a = 7;
+const b = 3;
+const c = 10;
 
 if (a >= b && a >= c) {
   if (b >= c) {
@@ -143,8 +143,12 @@ if (a >= b && a >= c) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let x = 40
-console.log (typeof x)  
+let x = 78
+if (typeof x === "number") {
+  console.log ("x è un numero")  
+}
+else { 
+  console.log ("x NON è un numero")  } 
 
 
 
@@ -155,7 +159,12 @@ console.log (typeof x)
 /* SCRIVI QUI LA TUA RISPOSTA */
  
 x % 2 
-console.log(x % 2)  
+ 
+if (x%2 === 0) {
+  console.log ("il num è pari")
+} else {
+  console.log ("il num è dispari")
+}
 // resto 0 quindi pari
 
 
