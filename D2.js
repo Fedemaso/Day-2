@@ -71,7 +71,7 @@ if ((numb6 === 8) || (numb7 === 8)) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
-const totalShoppingCart = 77;
+const totalShoppingCart = 79;
 
 if (totalShoppingCart > 50) {
   totalToPay = totalShoppingCart
@@ -93,13 +93,14 @@ console.log("Totale da addebitare all'utente:" + totalToPay);
 
 const shippingCost = 10;
 const totalWithDiscount = totalShoppingCart * 0.8;
+let totalToPayWithDiscount
 
 if (totalWithDiscount > 50) {
-    const totalToPay = totalWithDiscount
+   totalToPayWithDiscount = totalWithDiscount
 } else {
-  const totalToPay = totalWithDiscount + shippingCost
+  totalToPayWithDiscount = totalWithDiscount + shippingCost
 }
-console.log("Totale con sconto da addebitare all'utente: " + totalToPay);
+console.log("Totale con sconto da addebitare all'utente: " + totalToPayWithDiscount);
 
 
 
